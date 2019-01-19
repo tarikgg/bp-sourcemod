@@ -5,8 +5,6 @@ SOURCEMOD_BUILD=6274
 
 CSGO_PATH="${SERVER_PATH}/csgo"
 
-mkdir "${CSGO_PATH}"
-
 echo "Downloading sourcemod"
 wget https://sm.alliedmods.net/smdrop/${SOURCEMOD_VERSION}/sourcemod-${SOURCEMOD_VERSION_FULL}-git${SOURCEMOD_BUILD}-linux.tar.gz
 echo "https://sm.alliedmods.net/smdrop/${SOURCEMOD_VERSION}/sourcemod-${SOURCEMOD_VERSION_FULL}-git${SOURCEMOD_BUILD}-linux.tar.gz"
