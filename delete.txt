@@ -1,2 +1,1 @@
 /csgo/addons/sourcemod/plugins/funvotes.smx
-/csgo/addons/sourcemod/plugins/funvotes2.smx
