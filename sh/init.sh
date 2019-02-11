@@ -1,7 +1,7 @@
 #!/bin/bash
 SOURCEMOD_VERSION=1.10
 SOURCEMOD_VERSION_FULL=1.10.0
-SOURCEMOD_BUILD=6274
+SOURCEMOD_BUILD=6381
 CSGO_PATH="${bp_serverPath}/csgo"
 FILE_NAME="sourcemod-${SOURCEMOD_VERSION_FULL}-git${SOURCEMOD_BUILD}-linux.tar.gz"
 wget -q -nv https://sm.alliedmods.net/smdrop/${SOURCEMOD_VERSION}/${FILE_NAME}
