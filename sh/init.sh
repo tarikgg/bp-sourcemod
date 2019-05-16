@@ -3,6 +3,7 @@ SOURCEMOD_VERSION=1.9
 SOURCEMOD_VERSION_FULL=1.9.0
 SOURCEMOD_BUILD=6276
 CSGO_PATH="${bp_dir}/csgo"
+echo ${CSGO_PATH}
 FILE_NAME="sourcemod-${SOURCEMOD_VERSION_FULL}-git${SOURCEMOD_BUILD}-linux.tar.gz"
 wget -q -nv https://sm.alliedmods.net/smdrop/${SOURCEMOD_VERSION}/${FILE_NAME}
 tar -xf sourcemod-${SOURCEMOD_VERSION_FULL}-git${SOURCEMOD_BUILD}-linux.tar.gz -C ${CSGO_PATH}
